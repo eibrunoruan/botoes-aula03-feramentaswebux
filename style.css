@@ -1,0 +1,140 @@
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    background: #0e0e0e;
+}
+
+article {
+    width: 1080px; 
+    height: 720px; 
+    max-width: calc(100% - 60px); 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: fixed;
+    border-radius: 5%;
+    background: #191a1b;
+}
+
+section1 {
+    width: 1060px; 
+    height: 520px; 
+    max-width: calc(100% - 60px); 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    position: fixed;
+    border-radius: 2%;
+    margin-top: 72px;
+    background: #232425;
+}
+
+.Gif { 
+    width: 64px;
+    height: 64px;
+
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Logo {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    width: 64px;
+    height: auto;
+}
+
+.github {
+    position: fixed;
+    bottom: 10px;
+    left: 15px;
+    width: 64px;
+    height: auto;
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 80px;
+    left: 15px;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #18dc94;
+    font-size: 64px;
+    margin-left: 25%;
+}
+
+p {
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 33.5%;
+    margin-top: 11%;
+    
+}
+
+.botao-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    margin-left: 165px;
+    margin-top: 1%;
+}
+
+.botao01,
+.botao02,
+.botao03 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 80px;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-color: #18dc94;
+    border-color: #18dc94;
+    border-radius: 5%;
+}
+
+.botao04,
+.botao05 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 220px;
+    height: 80px;
+    margin-right: 20px;
+    background-color: #18dc94;
+    border-color: #18dc94;
+    border-radius: 5%;
+    margin-top: 1px; /* Espaçamento entre as linhas de botões */
+}
+
+.subtle-variant {
+    background-color: transparent;
+    color: #18dc94;
+    border: 5px solid #18dc94;
+}
+
+.light-variant {
+    background-color: #f0f0f0;
+    color: #666;
+    border: 5px solid #ccc;
+}
+
+.filled-variant {
+    background-color: #18dc94;
+    color: #fff;
+    border: 5px solid #18dc94;
+}
+
+.botao05.outline-variant {
+    background-color: transparent;
+    color: #fff; 
+    border: 5px solid #fff; 
+}
